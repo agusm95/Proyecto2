@@ -42,7 +42,7 @@ with st.sidebar:
     )
 
 
-logo = Image.open(r'C:\Users\x\OneDrive\Escritorio\Agus\Henry DATA 02\Proyecto P2\SARS-CoV-2_without_background.png')
+logo = Image.open(r'report\SARS-CoV-2_without_background.png')
 if choose == "Inicio":
     col1, col2 = st.columns( [0.8, 0.2])
     with col1:               # To display the header text using css style
@@ -81,7 +81,7 @@ if choose == "Inicio":
 
                     )
 
-    profile = Image.open(r'C:\Users\x\OneDrive\Escritorio\Agus\Henry DATA 02\Proyecto P2\newplot.png')
+    profile = Image.open(r'report\newplot.png')
     st.image(profile, width=1000)
 
 if choose == "Camas UCI":
@@ -123,7 +123,7 @@ if choose == "Camas UCI":
 
     
     st.subheader('Porcentaje camas UCI por estado, en el año 2020')
-    profile = Image.open(r'C:\Users\x\OneDrive\Escritorio\Agus\Henry DATA 02\Proyecto P2\Total_camas2.box.jpg')
+    profile = Image.open(r'report\Total_camas2.box.jpg')
     st.image(profile, width=700 )
     
 
@@ -177,7 +177,7 @@ if choose == "Ocupación":
     st.pyplot(fig)
 
     st.subheader('Ranking de Ocupación de camas hospitalaria por estado, en el primer semestre del año 2020')
-    profile = Image.open(r'C:\Users\x\OneDrive\Escritorio\Agus\Henry DATA 02\Proyecto P2\ranking_estados.jpg')
+    profile = Image.open('report\ranking_estados.jpg')
     st.image(profile, width=700 )
 
 
@@ -194,15 +194,15 @@ if choose == "Conclusiones":
         st.image(logo, width=130 )
     st.write('Tomando conclusiones del analisis realizado del trabajo, fue que el peor mes de la pandemia fue el 21-01 que fue el mes que mas hubo Muertes por covid. Y tambien fue donde hubo reporte de falta de personal Medico.') 
     st.subheader('Muertes por COVID')
-    profile = Image.open(r'C:\Users\x\OneDrive\Escritorio\Agus\Henry DATA 02\Proyecto P2\deaths_covid.jpg')
+    profile = Image.open(r'report\deaths_covid.jpg')
     st.image(profile, width=700 )
 
     st.subheader('Falta de personal medico')
-    profile = Image.open(r'C:\Users\x\OneDrive\Escritorio\Agus\Henry DATA 02\Proyecto P2\falta_de_personal.jpg')
+    profile = Image.open(r'report\falta_de_personal.jpg')
     st.image(profile, width=700 )
 
     st.subheader('Relación entre muertes y falta de personal medico')
-    profile = Image.open(r'C:\Users\x\OneDrive\Escritorio\Agus\Henry DATA 02\Proyecto P2\relacion_muertes_falta_de_personal.jpg')
+    profile = Image.open(r'report\relacion_muertes_falta_de_personal.jpg')
     st.image(profile, width=700 )
     
 
