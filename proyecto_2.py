@@ -202,7 +202,7 @@ if choose == "Conclusiones":
     st.image(profile, width=700 )
 
     st.subheader('Relación entre muertes y falta de personal medico')
-    profile = Image.open(r'report\relacion_muertes_falta_de_personal.jpg')
+    profile = Image.open(r'report/relacion_muertes_falta_de_personal.jpg')
     st.image(profile, width=700 )
     
 
