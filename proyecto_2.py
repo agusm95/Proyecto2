@@ -42,7 +42,7 @@ with st.sidebar:
     )
 
 
-logo = Image.open(r'report\SARS-CoV-2_without_background.png')
+logo = Image.open('report\SARS-CoV-2_without_background.png')
 if choose == "Inicio":
     col1, col2 = st.columns( [0.8, 0.2])
     with col1:               # To display the header text using css style
