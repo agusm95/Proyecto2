@@ -81,8 +81,7 @@ if choose == "Inicio":
 
                     )
 
-    profile = Image.open(r'report/newplot.png')
-    st.image(profile, width=1000)
+    st.plotly_chart(fig, use_container_width=True)
 
 if choose == "Camas UCI":
     col1, col2 = st.columns( [0.8, 0.2])
